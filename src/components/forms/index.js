@@ -13,8 +13,6 @@ export const Forms = ({aoCadastrarColaborador, nomesDosTimes}) => {
 
     const aoSalvar = (event) => {
         event.preventDefault()
-        console.log("Enviado!", nome, cargo, imagem, time)
-
         // Essa é uma forma bem simples de declarar um objeto
         aoCadastrarColaborador({
             nome, 
@@ -22,6 +20,10 @@ export const Forms = ({aoCadastrarColaborador, nomesDosTimes}) => {
             imagem, 
             time,
         })
+        setCargo('')
+        setImagem('')
+        setNome('')
+        setTime('')
     }
 
     return(
