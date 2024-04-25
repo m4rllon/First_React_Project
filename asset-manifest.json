@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/OrganoByMarllon/static/css/main.5a886e56.css",
+    "main.js": "/OrganoByMarllon/static/js/main.14214534.js",
+    "index.html": "/OrganoByMarllon/index.html",
+    "main.5a886e56.css.map": "/OrganoByMarllon/static/css/main.5a886e56.css.map",
+    "main.14214534.js.map": "/OrganoByMarllon/static/js/main.14214534.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a886e56.css",
+    "static/js/main.14214534.js"
+  ]
+}
