@@ -33,7 +33,7 @@ export const Forms = ({aoCadastrarColaborador, nomesDosTimes}) => {
                 <CampoTexto obrigatorio={true} label={"Nome"} placeholder={"Digite seu nome"} valor={nome} aoAlterar={valor => setNome(valor)}/>
                 <CampoTexto obrigatorio={true} label={"Cargo"} placeholder={"Digite seu cargo"} valor={cargo} aoAlterar={valor => setCargo(valor)}/>
                 <CampoTexto obrigatorio={true} label={"Imagem"} placeholder={"Informe o caminho da imagem"} valor={imagem} aoAlterar={valor => setImagem(valor)}/>
-                <ListaSuspensa obrigatorio={true} itens={nomesDosTimes} label={"Time"} value={time} aoAlterado={valor => setTime(valor)}/>
+                <ListaSuspensa obrigatorio={true} itens={nomesDosTimes} label={"Time"} valor={time} aoAlterado={valor => setTime(valor)}/>
                 <Botao children={"Adicionar Colaborador"}/>
             </form>
         </section>
