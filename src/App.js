@@ -58,8 +58,6 @@ function App() {
        corSecundaria={time.corSecundaria} 
        colaboradores={colaboradores}
       />)}
-
-      <Time nome={"Programação"}/>
     </div>
   );
 }
