@@ -4,7 +4,7 @@ export const Banner = () => {
 
     return<>
         <header className="banner">
-          <img src="/images/imagens/banner.png" alt="O banner principal do site"/>        
+          <img src="images\imagens\banner.png" alt="O banner principal do site"/>        
         </header>
     </>
 
